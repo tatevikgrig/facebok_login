@@ -1,0 +1,324 @@
+*{
+	margin: 0;
+	padding: 0
+	
+}
+body{
+	line-height: 1.34;
+}
+header{
+	background-color: #3c5999;
+	width: 100%;
+	height:  82px;
+	display: flex;
+	justify-content: center;
+}
+.nav{
+	margin: 0 auto !important;
+	margin:  auto;
+    padding-top: 13px;
+    display: flex;
+    justify-content: space-between;
+    width: 980px
+}
+.logo a{
+	text-decoration: none;
+}
+
+.f{
+	color: white;
+	padding-top:10px;
+	font-size: 40px;
+	font-family: system-ui, -apple-system, system-ui, ".SFNSText-Regular", sans-serif;
+	
+}
+.form1{
+	display: flex;
+}
+.i1{
+	margin-right: 15px;
+}
+.i1 label {
+	/*align-items: center;*/
+	color: white;
+	font-family: system-ui, -apple-system, system-ui, ".SFNSText-Regular", sans-serif;
+	font-size: 12px;
+	padding-bottom:  3px
+}
+.i1 input{
+	border-color: #1d2a5b;
+    border: 1px solid #ccd0d5;
+    width: 142px;
+    padding: 3px;
+    padding-bottom: 4px;
+}
+.forgot a{
+	color: #9cb4d8;
+    font-weight: normal;
+    font-family: system-ui, -apple-system, system-ui, ".SFNSText-Regular", sans-serif;
+    text-decoration: none;
+    font-size: 12px;
+}
+.forgot a:hover{
+	text-decoration: underline;
+}
+.log{
+	display: flex;
+	align-items: center;
+
+}
+.log input{
+	background-color: #4267b2;
+    border-color: #29487d;
+    /*font-weight: bold;*/
+    color: #fff;
+    display: inline-block;
+    padding: 4px 8px;
+    font-size: 12px;
+    text-align: center;
+}
+main{
+	background: #edf0f5;
+	color: #1c1e21;
+}
+.main{
+	margin: 0 auto;
+    padding: 20px 0;
+    position: relative;
+    width: 980px;
+    font-family: inherit;
+    display: flex;
+
+}
+.left{
+	display: inline-block;
+    margin-right: 16px;
+    vertical-align: top;
+    width: 565px;
+}
+.left h2{
+	font-size: 28px;
+	width: 456px;
+	font-family: 'Freight Sans Bold', Helvetica, Arial, sans-serif !important;
+    letter-spacing: normal;
+    color: #333;
+    padding: 42px 0 24px;
+
+}
+.item1{
+	display: flex;
+	align-items: center;
+	font-family: 'Freight Sans Bold', Helvetica, Arial, sans-serif;
+	margin-top: 14px;
+    padding-bottom: 10px;
+}
+.item1 p{
+	color: #666;
+    vertical-align: baseline;
+    font-size: 15px;
+    line-height: 20px;
+    vertical-align: middle;
+    width: 440px;
+    padding-left: 10px;   
+}
+.spanik{
+	color: #333 !important;
+    font-size: 17px !important;
+    font-weight: bold;
+    line-height: 22px;
+    margin-right: 2px;
+}
+.right{
+	/*display: inline-block;*/
+    vertical-align: top;
+    width: 399px;
+}
+.sign_up h2 {
+	color: #333;
+    font-family: 'Freight Sans Bold', Helvetica, Arial, sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 1.2;
+    margin-bottom: 5px;
+}
+.note{
+	color: #333;
+    font-family: 'Freight Sans', Helvetica, Arial, sans-serif;
+    font-size: 19px;
+    line-height: 1.26;
+    margin-bottom: 20px;
+}
+.registration_form{
+	padding-bottom: 30px
+}
+.registration_form input{
+	background: white;
+    border-radius: 5px;
+    border: 0.5px solid #bdc7d8 !important;
+
+}
+.placeholder{
+	font-size: 18px;
+    padding: 8px 10px;
+    color: #999;
+}
+.row{
+	    margin-bottom: 10px;
+
+}
+.first_row input{
+	width: 172px;
+	margin-right: 10px;
+}
+.first_row{
+	display: flex;
+}
+.form_row input{
+	width: 377px;
+}
+.reg_input{
+	margin-top: 20px;
+
+}
+.form_heading{
+	color: #90949c;
+    font-size: 16px;
+    font-weight: bold;
+    /*margin-bottom: 5px;*/
+    /*margin-top: 10px;*/
+   	font-family: 'Freight Sans', Helvetica, Arial, sans-serif;
+}
+.date, .gender_input{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+select{
+	font-size: 13px;
+    height: 30px;
+    padding: 5px;
+    background-color: #fff;
+    border: 1px solid #ccd0d5;
+}
+.date i, .gender_input i{
+	color: #606770;
+	font-size:  16px;    
+}
+.gender_input label{
+	color: #1d2129;
+    font-size: 18px;
+    font-family: 'Freight Sans', Helvetica, Arial, sans-serif;
+    font-weight: normal;
+    line-height: 18px;
+    padding: 0 10px 0 3px;
+    vertical-align: middle;
+}
+.terms{
+	width: 399px;
+	padding-top: 10px;
+}
+.terms p{
+	color: #777;
+    font-size: 11px;
+    width: 316px;
+    font-family: 'Freight Sans', Helvetica, Arial, sans-serif;
+  }
+.terms a{
+  	text-decoration: none;
+  	color: #385898;
+    cursor: pointer;
+  }
+  .terms a:hover{
+  	text-decoration: underline;
+  }
+ .signup_button{
+ 	margin-top: 10px;
+ }
+.btn{
+	font-family: 'Freight Sans Bold', Helvetica, Arial, sans-serif !important;
+    font-weight: bold !important;
+    letter-spacing: normal;
+    font-size: 19px;
+    border-color: #3b6e22 #3b6e22 #2c5115 !important;
+    background: linear-gradient(#67ae55, #578843);
+    background-color: #69a74e;
+    box-shadow: inset 0 1px 1px #a4e388;
+    min-width: 194px;
+    padding: 7px 20px;
+    text-align: center;	
+    border: 1px solid;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-shadow: 0 1px 2px rgba(0,0,0,.5);
+}
+.celebrity{
+	font-family: 'Freight Sans Bold', Helvetica, Arial, sans-serif !important;
+	border-top: 1px solid #dddfe2;
+    color: #666;
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 10px;
+    padding-top: 15px;
+}
+.celebrity a{
+	text-decoration: none;
+	/*font-size: 15px;*/
+	color: #385898;
+}
+.celebrity a:hover{
+	text-decoration: underline;
+}
+footer{
+	padding: 30px;
+	margin: 0 auto;
+    width: 980px
+}
+.languages ul, .additions ul{
+	align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 8px;
+}
+.languages ul li, .additions ul li{
+	list-style-type: none;
+	display: inline;
+	
+}
+.languages ul li a, .additions ul li a{
+	font-family: 'Freight Sans Bold', Helvetica, Arial, sans-serif !important;
+	text-decoration: none;
+    padding-right: 15px;
+    font-size: 13px;
+    color: #385898;
+}
+
+#plus{	
+	background-color: #f5f6f7;
+	vertical-align: middle;
+	padding: 2px 9px !important;
+	border: 1px solid #ccd0d5 !important;
+    border-radius: 2px !important;
+    color: #4b4f56 !important;
+    font-size: 12px;
+}
+
+hr{
+	 border: 0.5px solid #dddfe2;
+	 margin-top: 5px;
+}
+li img{
+	vertical-align: middle;
+}
+.copyright{
+	margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 11px;
+    font-family: 'Freight Sans Bold', Helvetica, Arial, sans-serif !important;
+    color: #737373;
+}
+li:hover{
+	text-decoration: underline;
+}
